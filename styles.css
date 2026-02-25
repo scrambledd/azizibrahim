@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: bodytext;
+  src: url(assets/neuemontreal.otf);
+  font-weight: normal;
+}
+
+body {
+  font-family: bodytext;
+  background-color: ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 16vw;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.intro {
+  max-width: 700px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  font-size: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-links {
+  margin-top: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.project {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.project-tag {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.project-description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    max-width: 700px;
+}
+
+.project-images {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-image.device {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.copy-email {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.copy-email:hover {
+  text-decoration: underline;
+
+}
